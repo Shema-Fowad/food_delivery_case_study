@@ -1,0 +1,501 @@
+RestaurantID,Name,Address,CityID,Cuisine,Rating,OperatingHours,ContactNumber,IsActive,OpeningDate
+1,Smoke House Deli - Delhi 1,"43/078, Rastogi, Munger-066556",2,Beverages,3.42,10:00 AM - 11:00 PM,+914182425299,True,2025-07-14
+2,McDonalds - Patna 2,"H.No. 81, Sengupta, Gaya-377618",19,Street Food,3.56,10:00 AM - 11:00 PM,+911564687292,True,2024-08-18
+3,Subway - Vadodara 3,"13, Murty Path, Hosur-013711",20,Rajasthani,3.1,10:00 AM - 11:00 PM,+917723811966,False,2024-08-08
+4,Moti Mahal - Surat 4,"H.No. 495, Chaudhuri Marg, Mau 033954",10,Rajasthani,3.29,10:00 AM - 11:00 PM,0927824354,True,2024-03-10
+5,Sagar Ratna - Vadodara 5,"H.No. 12, Solanki Road, Gandhinagar 989260",20,South Indian,3.9,10:00 AM - 11:00 PM,01500737793,True,2021-05-26
+6,Pizza Hut - Visakhapatnam 6,"H.No. 121, Sood Street, Hazaribagh-859759",17,Bakery,3.56,10:00 AM - 11:00 PM,6360704975,True,2022-02-23
+7,KFC - Kolkata 7,"89/555, Chaudhuri Chowk, Gulbarga-206095",6,Bakery,3.04,10:00 AM - 11:00 PM,08493921524,True,2024-02-13
+8,The Brew House - Patna 8,"43, Manne Marg, Firozabad 152342",19,South Indian,4.39,10:00 AM - 11:00 PM,+916471329575,False,2025-01-12
+9,Kareem's - Madurai 9,"37, Sani Ganj, Bareilly-187724",44,Desserts,3.11,10:00 AM - 11:00 PM,+912699251708,True,2024-07-13
+10,Moti Mahal - Indore 10,"19, Gole Nagar, Bhusawal-293997",14,Fast Food,3.9,10:00 AM - 11:00 PM,03093040193,True,2023-07-27
+11,Empire Restaurant - Jabalpur 11,"50/64, Gokhale Ganj, Rewa 575494",40,Bengali,4.67,10:00 AM - 11:00 PM,+912310318638,True,2022-01-27
+12,Subway - Jabalpur 12,"779, Mall Road, Faridabad 678847",40,Mughlai,4.67,10:00 AM - 11:00 PM,6703547245,True,2026-01-26
+13,Burger King - Ahmedabad 13,"H.No. 59, Raj, Jodhpur-181609",8,Rajasthani,4.16,10:00 AM - 11:00 PM,+913054858035,True,2022-09-01
+14,MTR - Dhanbad 14,"41/219, Pal, Hosur-721779",33,Street Food,3.11,10:00 AM - 11:00 PM,7733633465,True,2022-05-31
+15,Truffles - Delhi 15,"886, Nazareth Circle, Chandigarh-653126",2,Rajasthani,3.57,10:00 AM - 11:00 PM,+917189184472,True,2025-03-14
+16,Paradise Biryani - Mumbai 16,"H.No. 17, Barad Ganj, Maheshtala-496968",1,South Indian,3.86,10:00 AM - 11:00 PM,4942891809,True,2025-04-04
+17,Cafe Coffee Day - Nashik 17,"472, Edwin Circle, Panipat-412121",24,Punjabi,4.98,10:00 AM - 11:00 PM,+917003599226,True,2022-05-09
+18,Oh! Calcutta - Varanasi 18,"654, Chawla Zila, Allahabad 587548",30,Bakery,3.19,10:00 AM - 11:00 PM,+919569445355,True,2025-10-22
+19,Moti Mahal - Dhanbad 19,"244, Rege Ganj, Bhimavaram-401138",33,Bakery,3.2,10:00 AM - 11:00 PM,07830955053,True,2022-06-29
+20,Mainland China - Agra 20,"53/184, Madan Circle, Panipat 076713",23,Desserts,3.99,10:00 AM - 11:00 PM,+918022906945,True,2025-08-15
+21,Moti Mahal - Jodhpur 21,"H.No. 38, Gulati Ganj, Buxar-470652",43,Punjabi,4.71,10:00 AM - 11:00 PM,1820073591,True,2023-06-01
+22,Social - Thane 22,"H.No. 284, Pandit Chowk, Bhopal-573521",15,Fast Food,4.72,10:00 AM - 11:00 PM,+912138281405,True,2021-11-29
+23,KFC - Ludhiana 23,"H.No. 78, Pai Marg, Bhusawal-492597",22,Desserts,4.66,10:00 AM - 11:00 PM,+916532658905,True,2022-02-06
+24,The Brew House - Ahmedabad 24,"041, Karnik Road, Bharatpur 855811",8,Street Food,4.96,10:00 AM - 11:00 PM,08453444251,True,2023-04-29
+25,Starbucks - Guwahati 25,"53, Khare Nagar, Bhalswa Jahangir Pur-084105",48,Gujarati,3.9,10:00 AM - 11:00 PM,2577795019,True,2023-03-15
+26,Truffles - Jodhpur 26,"171, Khare Street, Gandhinagar-463981",43,Bengali,4.51,10:00 AM - 11:00 PM,+914157915869,True,2022-09-19
+27,MTR - Pimpri-Chinchwad 27,"H.No. 28, Din Marg, Bhalswa Jahangir Pur 950623",18,Desserts,3.61,10:00 AM - 11:00 PM,+919874330984,True,2024-02-11
+28,Haldirams - Lucknow 28,"270, Samra Circle, Haridwar-867876",11,Italian,4.83,10:00 AM - 11:00 PM,7988669742,True,2025-04-24
+29,Mainland China - Ghaziabad 29,"H.No. 24, Dhar Marg, Pali-210216",21,South Indian,4.15,10:00 AM - 11:00 PM,01547705902,True,2021-03-02
+30,Truffles - Srinagar 30,"03/893, Gara Marg, Alappuzha 017883",31,Bakery,4.38,10:00 AM - 11:00 PM,09133051013,True,2022-09-18
+31,Saravana Bhavan - Varanasi 31,"H.No. 11, Parsa Chowk, Bulandshahr-448806",30,Mughlai,4.77,10:00 AM - 11:00 PM,2607724556,True,2021-03-23
+32,Bikanervala - Ahmedabad 32,"H.No. 543, Cherian Street, Nandyal 533663",8,Desserts,4.96,10:00 AM - 11:00 PM,+912318497548,True,2022-01-06
+33,Barbeque Nation - Gwalior 33,"679, Chadha Marg, Hazaribagh-898834",41,Bengali,3.23,10:00 AM - 11:00 PM,03788510591,True,2021-08-14
+34,Meghana Foods - Surat 34,"81/23, Suri, Jhansi-704367",10,Mughlai,3.03,10:00 AM - 11:00 PM,+913762748728,True,2022-04-11
+35,Haldirams - Pimpri-Chinchwad 35,"59, Vohra Road, Gangtok-264945",18,Desserts,3.7,10:00 AM - 11:00 PM,+915590397607,True,2022-07-27
+36,Pizza Hut - Madurai 36,"066, Verma Chowk, Thiruvananthapuram-907025",44,Bengali,3.23,10:00 AM - 11:00 PM,3961134547,True,2024-11-24
+37,Punjab Grill - Aurangabad 37,"786, Iyengar Path, Mathura 984581",32,Punjabi,3.39,10:00 AM - 11:00 PM,01139584328,True,2025-09-23
+38,Meghana Foods - Ludhiana 38,"90/27, Ramanathan Ganj, Bongaigaon-484115",22,Punjabi,3.48,10:00 AM - 11:00 PM,08905642704,True,2023-02-24
+39,Truffles - Kota 39,"H.No. 487, Manne Path, Dhule 519823",46,Street Food,4.05,10:00 AM - 11:00 PM,7405262243,True,2025-10-13
+40,Barbeque Nation - Kalyan-Dombivali 40,"H.No. 955, Pal, Kota 903781",28,Street Food,4.51,10:00 AM - 11:00 PM,+910077389219,True,2025-07-14
+41,Punjab Grill - Pune 41,"39, Sha Ganj, Agartala-447784",7,Continental,4.2,10:00 AM - 11:00 PM,06908658300,True,2023-08-05
+42,Haldirams - Kolkata 42,"48, Dhillon Marg, Jabalpur 654500",6,Italian,4.35,10:00 AM - 11:00 PM,9984917430,True,2022-01-10
+43,Oh! Calcutta - Srinagar 43,"H.No. 65, Magar Chowk, Vasai-Virar-582371",31,Fast Food,3.59,10:00 AM - 11:00 PM,3383100426,True,2021-05-02
+44,Cafe Coffee Day - Bangalore 44,"29, Chadha Circle, Guwahati 263630",3,Punjabi,4.31,10:00 AM - 11:00 PM,0003237621,True,2021-03-20
+45,Social - Meerut 45,"595, Dhillon Zila, Bahraich 851337",26,Bengali,4.81,10:00 AM - 11:00 PM,07312865836,True,2025-01-17
+46,MTR - Ghaziabad 46,"11, Manda Marg, Jammu-583113",21,Mughlai,4.83,10:00 AM - 11:00 PM,+919480361609,True,2023-02-17
+47,Meghana Foods - Delhi 47,"72/70, Sane Marg, Berhampur-509505",2,Punjabi,3.55,10:00 AM - 11:00 PM,09967723676,True,2021-12-12
+48,Subway - Ghaziabad 48,"11/27, Dar Zila, Varanasi-948512",21,Gujarati,5.0,10:00 AM - 11:00 PM,00816589680,True,2023-03-28
+49,Kareem's - Meerut 49,"60/39, Taneja Road, Vasai-Virar-776853",26,Street Food,3.31,10:00 AM - 11:00 PM,00478786242,True,2021-10-04
+50,Toit - Pimpri-Chinchwad 50,"55, Barad Path, Medininagar-326214",18,Punjabi,3.68,10:00 AM - 11:00 PM,04886097030,True,2021-03-05
+51,Subway - Madurai 51,"44/66, Gola Road, Jaunpur-657501",44,Punjabi,3.14,10:00 AM - 11:00 PM,2540862456,True,2024-08-22
+52,Oh! Calcutta - Vijayawada 52,"188, Padmanabhan Marg, Anantapur 034178",42,Bengali,3.37,10:00 AM - 11:00 PM,02593313931,True,2022-01-03
+53,Toit - Lucknow 53,"61/535, Vohra, Tiruvottiyur-701191",11,Rajasthani,3.13,10:00 AM - 11:00 PM,6705063737,True,2023-12-10
+54,Toit - Ranchi 54,"H.No. 27, D’Alia Path, Hyderabad-711471",37,Gujarati,4.9,10:00 AM - 11:00 PM,+914941812257,True,2023-05-21
+55,Haldirams - Chandigarh 55,"H.No. 09, Mohanty Chowk, Madanapalle-109071",47,Gujarati,4.74,10:00 AM - 11:00 PM,+913845647686,True,2024-08-15
+56,Smoke House Deli - Kota 56,"66/59, Sinha Nagar, Mehsana-425361",46,Rajasthani,3.21,10:00 AM - 11:00 PM,9417323197,True,2023-03-11
+57,Punjab Grill - Indore 57,"H.No. 931, Chauhan Road, Tirupati 319971",14,Chinese,3.38,10:00 AM - 11:00 PM,6717925724,True,2023-07-26
+58,Punjab Grill - Mumbai 58,"H.No. 73, Subramaniam Street, Bangalore-172240",1,South Indian,4.38,10:00 AM - 11:00 PM,+913116149486,True,2022-04-28
+59,MTR - Pimpri-Chinchwad 59,"49/54, Saran Ganj, Agra-326348",18,Street Food,3.52,10:00 AM - 11:00 PM,+917010965525,True,2024-12-02
+60,Meghana Foods - Lucknow 60,"H.No. 566, Chaudhry Path, Tadepalligudem 274265",11,South Indian,3.42,10:00 AM - 11:00 PM,00284550796,False,2022-12-21
+61,Subway - Pimpri-Chinchwad 61,"H.No. 391, Gulati, Ulhasnagar 972923",18,Bakery,3.64,10:00 AM - 11:00 PM,0479429094,True,2023-03-29
+62,The Beer Cafe - Faridabad 62,"11/113, Das Chowk, Bathinda 765647",25,Fast Food,3.44,10:00 AM - 11:00 PM,8588810412,True,2025-06-19
+63,McDonalds - Bhopal 63,"31/564, Goswami Circle, Nanded 870409",16,Street Food,3.02,10:00 AM - 11:00 PM,08192162272,False,2023-04-22
+64,Haldirams - Faridabad 64,"63/38, Lal Circle, Bharatpur-052285",25,Punjabi,4.2,10:00 AM - 11:00 PM,+910287295671,True,2022-05-08
+65,Oh! Calcutta - Vasai-Virar 65,"H.No. 76, Radhakrishnan Ganj, Jamnagar 521699",29,Mughlai,3.68,10:00 AM - 11:00 PM,4683040058,True,2022-05-09
+66,Kareem's - Thane 66,"H.No. 536, Sant Path, Narasaraopet-319962",15,North Indian,4.17,10:00 AM - 11:00 PM,1137769636,True,2024-08-10
+67,Burger King - Visakhapatnam 67,"63/23, Bajwa Chowk, Bharatpur-085145",17,Mughlai,3.72,10:00 AM - 11:00 PM,00660266701,True,2022-05-16
+68,The Brew House - Howrah 68,"33/539, Raj Nagar, Bhavnagar 191629",38,Bakery,3.27,10:00 AM - 11:00 PM,4921295166,True,2026-01-22
+69,Oh! Calcutta - Agra 69,"H.No. 464, Dayal Circle, Sasaram 448003",23,Rajasthani,3.06,10:00 AM - 11:00 PM,+918007062273,False,2025-09-30
+70,MTR - Amritsar 70,"203, Gopal Path, Bahraich 768871",34,Street Food,4.73,10:00 AM - 11:00 PM,+911441575271,True,2021-10-04
+71,The Brew House - Allahabad 71,"H.No. 87, Doctor Zila, Machilipatnam 377457",36,South Indian,3.97,10:00 AM - 11:00 PM,07403750874,False,2021-11-19
+72,KFC - Vijayawada 72,"735, Hayre Marg, Jehanabad 983766",42,Rajasthani,3.66,10:00 AM - 11:00 PM,09301933227,False,2024-11-29
+73,Mainland China - Vadodara 73,"H.No. 353, Mahal Chowk, Hapur 594632",20,Rajasthani,3.84,10:00 AM - 11:00 PM,+911638503525,True,2024-03-29
+74,Mainland China - Amritsar 74,"14/404, Chada Road, Mangalore 160717",34,South Indian,4.75,10:00 AM - 11:00 PM,09288627259,True,2022-11-04
+75,Haldirams - Mumbai 75,"470, Choudhry Chowk, Delhi 599083",1,Street Food,3.68,10:00 AM - 11:00 PM,4435899488,True,2022-05-23
+76,The Great Kabab Factory - Jabalpur 76,"10/79, Lal Ganj, Latur 612510",40,Beverages,3.96,10:00 AM - 11:00 PM,+915987640931,True,2025-09-18
+77,Haldirams - Delhi 77,"55, Devi Street, Cuttack-432358",2,South Indian,4.61,10:00 AM - 11:00 PM,08885815847,True,2023-08-02
+78,The Great Kabab Factory - Rajkot 78,"31/51, Karan Chowk, Morena-950476",27,Continental,4.41,10:00 AM - 11:00 PM,6842858438,True,2022-06-17
+79,Dominos Pizza - Ludhiana 79,"22/55, Chander Ganj, Dehri-446193",22,Continental,4.3,10:00 AM - 11:00 PM,08411026828,True,2021-06-12
+80,Oh! Calcutta - Vasai-Virar 80,"97, Borde, Ahmedabad-468308",29,Chinese,4.7,10:00 AM - 11:00 PM,3371149943,True,2021-08-27
+81,Punjab Grill - Meerut 81,"H.No. 346, Thaman Ganj, Bokaro-435150",26,South Indian,4.23,10:00 AM - 11:00 PM,1295672210,True,2022-09-09
+82,Empire Restaurant - Srinagar 82,"718, Nagarajan Ganj, Gwalior 162621",31,Italian,4.62,10:00 AM - 11:00 PM,8061825239,True,2024-10-02
+83,Smoke House Deli - Amritsar 83,"31/48, Modi Zila, Mau-770790",34,Mughlai,3.49,10:00 AM - 11:00 PM,4222378366,True,2025-03-07
+84,Social - Mumbai 84,"44/566, Sant Road, Aurangabad 746277",1,Italian,3.93,10:00 AM - 11:00 PM,06162118271,True,2022-11-16
+85,Toit - Varanasi 85,"70/01, Kala, Serampore-310974",30,South Indian,4.09,10:00 AM - 11:00 PM,00457863002,True,2025-07-21
+86,Burger King - Rajkot 86,"26/86, Ghose Street, Adoni-366992",27,Punjabi,3.58,10:00 AM - 11:00 PM,+910247083141,True,2021-06-22
+87,Arsalan - Visakhapatnam 87,"H.No. 283, Dhingra Chowk, Bellary-243130",17,Continental,4.94,10:00 AM - 11:00 PM,00804911516,True,2025-11-11
+88,Moti Mahal - Ahmedabad 88,"H.No. 31, Chahal Zila, Bidhannagar 089609",8,Chinese,4.97,10:00 AM - 11:00 PM,8484500710,True,2024-04-02
+89,Punjab Grill - Srinagar 89,"85, Sathe Nagar, Durgapur 557063",31,Chinese,3.56,10:00 AM - 11:00 PM,02698939524,False,2023-09-05
+90,The Great Kabab Factory - Kota 90,"37/028, Choudhary Chowk, Asansol 183402",46,Fast Food,4.4,10:00 AM - 11:00 PM,02389864535,True,2023-09-29
+91,Social - Varanasi 91,"110, Pandit Path, Surat 615656",30,Beverages,3.7,10:00 AM - 11:00 PM,4716996958,True,2025-06-12
+92,Moti Mahal - Ranchi 92,"37/355, Biswas Marg, Ulhasnagar 749270",37,South Indian,4.47,10:00 AM - 11:00 PM,5630515410,True,2025-02-21
+93,Mainland China - Varanasi 93,"H.No. 80, Kuruvilla Street, Berhampore 467944",30,Mughlai,4.96,10:00 AM - 11:00 PM,+912089567754,True,2022-04-12
+94,The Great Kabab Factory - Guwahati 94,"80/897, Dani, Lucknow-570813",48,Continental,4.23,10:00 AM - 11:00 PM,07027005697,True,2025-08-01
+95,Paradise Biryani - Ghaziabad 95,"H.No. 27, Gandhi Zila, Bhimavaram-659907",21,Continental,3.62,10:00 AM - 11:00 PM,04546234957,True,2024-10-08
+96,MTR - Kolkata 96,"28/680, Dash Ganj, Ludhiana-095894",6,Italian,4.08,10:00 AM - 11:00 PM,+911359945099,True,2021-05-16
+97,Toit - Srinagar 97,"496, Som Road, Mathura-588451",31,South Indian,3.39,10:00 AM - 11:00 PM,0044403099,True,2023-09-04
+98,Burger King - Aurangabad 98,"777, Dhaliwal Marg, Danapur 187117",32,Fast Food,4.66,10:00 AM - 11:00 PM,08316767866,True,2025-03-14
+99,Meghana Foods - Hyderabad 99,"433, Sachar Zila, Anantapur 492613",4,Continental,3.95,10:00 AM - 11:00 PM,04485298641,True,2021-03-08
+100,Kareem's - Pimpri-Chinchwad 100,"H.No. 59, Gola Zila, Ranchi 836553",18,Mughlai,4.25,10:00 AM - 11:00 PM,+913551799262,True,2024-06-28
+101,Meghana Foods - Navi Mumbai 101,"H.No. 829, Kakar Zila, Surat-360444",35,Rajasthani,3.36,10:00 AM - 11:00 PM,0177866309,True,2024-08-31
+102,Toit - Kanpur 102,"22/195, Kaur Road, Lucknow 502897",12,Mughlai,4.64,10:00 AM - 11:00 PM,6675456522,True,2022-01-11
+103,Kareem's - Solapur 103,"H.No. 03, Raja, Karawal Nagar 336044",49,North Indian,3.4,10:00 AM - 11:00 PM,05150675064,True,2023-11-25
+104,MTR - Chandigarh 104,"H.No. 19, Srinivasan Nagar, Giridih-483344",47,Fast Food,3.53,10:00 AM - 11:00 PM,01753913380,False,2022-03-10
+105,Saravana Bhavan - Solapur 105,"H.No. 38, Rai Marg, Khora -094817",49,Street Food,4.98,10:00 AM - 11:00 PM,3877126317,True,2023-06-23
+106,Pizza Hut - Patna 106,"81/816, Bassi Chowk, Bardhaman-712419",19,Mughlai,3.48,10:00 AM - 11:00 PM,+915621236373,True,2025-10-04
+107,The Beer Cafe - Pune 107,"22/069, D’Alia, Ichalkaranji 328917",7,Bengali,3.87,10:00 AM - 11:00 PM,5316448336,True,2025-02-24
+108,Social - Agra 108,"171, Tiwari Ganj, Berhampur-030468",23,Rajasthani,4.2,10:00 AM - 11:00 PM,1589802194,False,2021-12-03
+109,Saravana Bhavan - Jaipur 109,"64/983, Dada Marg, Ahmedabad-975549",9,Chinese,3.69,10:00 AM - 11:00 PM,+917846859273,True,2021-02-08
+110,The Beer Cafe - Vadodara 110,"H.No. 215, Sastry Road, Muzaffarpur-031124",20,Bakery,3.19,10:00 AM - 11:00 PM,04560482999,True,2023-12-15
+111,Meghana Foods - Pimpri-Chinchwad 111,"84/56, Raju Path, Bathinda 136111",18,South Indian,3.13,10:00 AM - 11:00 PM,6654733407,True,2023-06-23
+112,Arsalan - Faridabad 112,"552, Raman Road, Junagadh-474833",25,Punjabi,3.38,10:00 AM - 11:00 PM,+918801113308,True,2023-12-09
+113,Meghana Foods - Dhanbad 113,"H.No. 942, Mander Marg, Thoothukudi-635844",33,North Indian,4.24,10:00 AM - 11:00 PM,03143346904,True,2025-10-18
+114,Empire Restaurant - Ludhiana 114,"11/93, Maharaj Circle, Sonipat-048139",22,Punjabi,3.61,10:00 AM - 11:00 PM,08366265811,True,2024-09-10
+115,Kareem's - Ahmedabad 115,"44/88, Chowdhury Chowk, Raipur-496369",8,Mughlai,4.72,10:00 AM - 11:00 PM,07545221428,True,2021-10-26
+116,The Beer Cafe - Ranchi 116,"514, Hari Zila, Ongole-815021",37,North Indian,3.85,10:00 AM - 11:00 PM,2537421888,True,2021-08-25
+117,Oh! Calcutta - Raipur 117,"H.No. 784, Mohanty, Mangalore 508069",45,Bakery,3.38,10:00 AM - 11:00 PM,0807841487,True,2025-08-25
+118,KFC - Bhopal 118,"492, Bhatti, Panchkula 540653",16,Italian,4.61,10:00 AM - 11:00 PM,+915030242897,True,2022-06-15
+119,Sagar Ratna - Chennai 119,"997, Sastry Nagar, Hindupur-900894",5,Bakery,4.51,10:00 AM - 11:00 PM,+914107983105,True,2023-03-19
+120,KFC - Agra 120,"33/17, Bains Circle, Katihar-227160",23,Continental,3.95,10:00 AM - 11:00 PM,08544807221,True,2021-02-09
+121,Bikanervala - Kolkata 121,"H.No. 32, Sagar Marg, Gwalior-312114",6,Bengali,3.76,10:00 AM - 11:00 PM,7950161369,True,2023-08-09
+122,Oh! Calcutta - Gwalior 122,"H.No. 927, Sankar Chowk, Moradabad-576650",41,Continental,3.07,10:00 AM - 11:00 PM,+914696734506,True,2025-10-09
+123,Empire Restaurant - Pimpri-Chinchwad 123,"872, Balan Chowk, Vijayawada-916154",18,Punjabi,3.72,10:00 AM - 11:00 PM,+911575209432,True,2021-11-17
+124,Burger King - Jabalpur 124,"203, Som Ganj, Unnao 996439",40,Chinese,3.5,10:00 AM - 11:00 PM,+912773817636,True,2024-04-08
+125,The Beer Cafe - Gwalior 125,"04, Ranganathan, Tezpur 802514",41,Chinese,4.89,10:00 AM - 11:00 PM,7931872668,True,2021-07-12
+126,Cafe Coffee Day - Ludhiana 126,"07/81, Bera, Rampur-950794",22,Bakery,3.69,10:00 AM - 11:00 PM,+912075020795,True,2021-04-09
+127,KFC - Gwalior 127,"49/68, Kulkarni, Kollam-056006",41,Continental,3.68,10:00 AM - 11:00 PM,+916442210100,True,2023-07-27
+128,Truffles - Faridabad 128,"031, Sha Zila, Danapur 097228",25,Street Food,3.69,10:00 AM - 11:00 PM,8927636000,False,2021-09-16
+129,Sagar Ratna - Delhi 129,"97, Goel Circle, Agartala-267619",2,Gujarati,4.57,10:00 AM - 11:00 PM,06954194004,True,2021-04-01
+130,MTR - Chandigarh 130,"H.No. 775, Halder Street, Katihar 817846",47,Punjabi,4.98,10:00 AM - 11:00 PM,+915963600893,True,2023-05-10
+131,Toit - Jabalpur 131,"01/835, Dalal Street, Pune-473644",40,Continental,4.97,10:00 AM - 11:00 PM,9449304101,True,2025-01-12
+132,Kareem's - Kanpur 132,"H.No. 24, Kashyap Nagar, Alwar 729064",12,Gujarati,4.73,10:00 AM - 11:00 PM,3769468342,True,2021-10-17
+133,Social - Rajkot 133,"H.No. 85, Chana, Medininagar-896953",27,Street Food,4.61,10:00 AM - 11:00 PM,04554883922,True,2025-07-16
+134,Social - Ludhiana 134,"H.No. 243, Kalita Ganj, Patiala-979938",22,Gujarati,3.57,10:00 AM - 11:00 PM,6649009470,True,2023-11-09
+135,MTR - Vadodara 135,"24/463, Palla Street, Noida-141940",20,Fast Food,3.19,10:00 AM - 11:00 PM,+911828530256,True,2023-04-04
+136,Cafe Coffee Day - Gwalior 136,"05/75, Doctor Street, Bhimavaram 997569",41,Desserts,3.09,10:00 AM - 11:00 PM,00749708198,True,2023-07-30
+137,Empire Restaurant - Coimbatore 137,"71/58, Sekhon Chowk, Parbhani 572994",39,South Indian,4.1,10:00 AM - 11:00 PM,03838372872,True,2021-05-24
+138,Barbeque Nation - Bhopal 138,"75/63, Sen Path, Mumbai 718011",16,North Indian,4.52,10:00 AM - 11:00 PM,1657410772,True,2024-10-10
+139,Subway - Kolkata 139,"02, Nath Circle, Bareilly-598992",6,Fast Food,3.27,10:00 AM - 11:00 PM,5702152027,True,2024-03-31
+140,KFC - Ahmedabad 140,"H.No. 55, Vala Chowk, Madanapalle-917568",8,Beverages,4.87,10:00 AM - 11:00 PM,7313932869,True,2026-01-28
+141,Oh! Calcutta - Pimpri-Chinchwad 141,"30, Kale Circle, Bhilwara-518982",18,Bengali,4.22,10:00 AM - 11:00 PM,4550565943,True,2021-05-05
+142,The Beer Cafe - Visakhapatnam 142,"72/55, Sanghvi Ganj, Kozhikode 317425",17,Mughlai,4.03,10:00 AM - 11:00 PM,7439423861,True,2021-10-20
+143,The Brew House - Patna 143,"12/05, Bhandari Street, Jalandhar-071475",19,Desserts,4.18,10:00 AM - 11:00 PM,+912555208968,True,2021-11-19
+144,Subway - Nagpur 144,"H.No. 52, Savant Marg, Dhule 735132",13,Street Food,3.91,10:00 AM - 11:00 PM,+919286556392,True,2023-10-04
+145,Paradise Biryani - Madurai 145,"46/02, Vohra Street, Akola-974862",44,Bengali,3.92,10:00 AM - 11:00 PM,08842923565,True,2025-10-26
+146,Truffles - Dhanbad 146,"98, Arya Path, Satara-845718",33,North Indian,4.73,10:00 AM - 11:00 PM,1920613714,True,2025-03-05
+147,Barbeque Nation - Howrah 147,"609, Peri, Ajmer-752928",38,Street Food,3.17,10:00 AM - 11:00 PM,1881160911,True,2021-03-07
+148,The Brew House - Navi Mumbai 148,"293, Narayanan, Mysore-696113",35,Street Food,4.82,10:00 AM - 11:00 PM,08755102005,True,2025-08-03
+149,Arsalan - Hubli-Dharwad 149,"H.No. 193, Merchant Chowk, Panihati 280318",50,North Indian,3.43,10:00 AM - 11:00 PM,08585026055,True,2021-05-30
+150,Empire Restaurant - Kalyan-Dombivali 150,"83/50, Wadhwa Path, Bellary 202320",28,Continental,4.9,10:00 AM - 11:00 PM,03973689623,True,2023-12-16
+151,The Brew House - Vasai-Virar 151,"H.No. 04, Chana Zila, Gangtok 771969",29,Rajasthani,3.21,10:00 AM - 11:00 PM,+911229804910,True,2022-01-15
+152,Meghana Foods - Hubli-Dharwad 152,"24/628, Sagar Path, Ongole 885711",50,Beverages,3.72,10:00 AM - 11:00 PM,0536936369,True,2025-02-25
+153,Cafe Coffee Day - Visakhapatnam 153,"64/488, Borra Path, Howrah 367101",17,Bengali,3.0,10:00 AM - 11:00 PM,+917136110134,True,2022-02-14
+154,Sagar Ratna - Allahabad 154,"H.No. 96, Loke Zila, Nadiad-024180",36,South Indian,4.46,10:00 AM - 11:00 PM,+912394868197,True,2024-06-18
+155,Moti Mahal - Ludhiana 155,"H.No. 16, Nagar Ganj, Katni-781970",22,North Indian,3.19,10:00 AM - 11:00 PM,4421748283,True,2022-12-30
+156,Burger King - Indore 156,"73/388, Keer Ganj, Mysore-383177",14,Mughlai,3.52,10:00 AM - 11:00 PM,+911815996316,True,2025-09-15
+157,Pizza Hut - Jodhpur 157,"982, Chaudhari Circle, Bhatpara 807954",43,Mughlai,3.41,10:00 AM - 11:00 PM,00418053114,True,2021-03-13
+158,Starbucks - Indore 158,"65, Chowdhury Street, Aurangabad 724580",14,Italian,4.22,10:00 AM - 11:00 PM,03440947628,True,2023-06-30
+159,Saravana Bhavan - Nagpur 159,"74, Borah, Shahjahanpur-605310",13,Desserts,4.03,10:00 AM - 11:00 PM,01170841071,True,2025-01-05
+160,Smoke House Deli - Guwahati 160,"13/09, Mitter, Ballia 428092",48,Rajasthani,3.56,10:00 AM - 11:00 PM,01311513202,False,2021-02-15
+161,The Great Kabab Factory - Gwalior 161,"H.No. 65, Sant Road, Mau 330417",41,Rajasthani,4.29,10:00 AM - 11:00 PM,03462819834,True,2023-12-13
+162,Truffles - Dhanbad 162,"H.No. 12, Tiwari Zila, Arrah 794464",33,Desserts,4.41,10:00 AM - 11:00 PM,0045292162,True,2024-05-17
+163,Cafe Coffee Day - Madurai 163,"09, Sidhu Road, Sangli-Miraj & Kupwad 918602",44,Beverages,3.62,10:00 AM - 11:00 PM,01278080375,True,2022-09-25
+164,Punjab Grill - Delhi 164,"H.No. 483, Comar, Gaya 349116",2,Gujarati,4.8,10:00 AM - 11:00 PM,08581175341,True,2024-07-22
+165,Pizza Hut - Varanasi 165,"H.No. 020, Golla Path, Arrah 404251",30,Rajasthani,4.59,10:00 AM - 11:00 PM,5420934137,True,2021-06-21
+166,Haldirams - Meerut 166,"10/54, Gupta Chowk, Alappuzha 366436",26,South Indian,4.66,10:00 AM - 11:00 PM,0102859503,True,2024-05-20
+167,Pizza Hut - Solapur 167,"H.No. 446, Wadhwa Ganj, Gwalior 382546",49,Street Food,4.8,10:00 AM - 11:00 PM,6314430867,True,2025-10-29
+168,Burger King - Srinagar 168,"H.No. 263, Palla Zila, Naihati-937633",31,South Indian,4.92,10:00 AM - 11:00 PM,01530204210,True,2022-08-28
+169,Barbeque Nation - Meerut 169,"H.No. 552, Halder Zila, Kollam 278694",26,Fast Food,4.96,10:00 AM - 11:00 PM,06791178315,True,2022-08-02
+170,McDonalds - Delhi 170,"H.No. 32, Manda Road, Nandyal 746054",2,Gujarati,4.38,10:00 AM - 11:00 PM,06535799266,True,2023-07-12
+171,Social - Srinagar 171,"88, Joshi, Ambattur-834658",31,Beverages,4.49,10:00 AM - 11:00 PM,+918122256483,False,2023-05-11
+172,Truffles - Bangalore 172,"697, Borde Road, Agartala 192995",3,Desserts,4.96,10:00 AM - 11:00 PM,02223980080,True,2025-02-04
+173,Mainland China - Guwahati 173,"13/76, Desai Chowk, Medininagar 237801",48,Punjabi,4.26,10:00 AM - 11:00 PM,2539725473,False,2023-03-06
+174,McDonalds - Jaipur 174,"79/622, Sahni Road, Sagar 167824",9,Punjabi,4.03,10:00 AM - 11:00 PM,2581569202,True,2021-05-08
+175,McDonalds - Hubli-Dharwad 175,"80/73, Sibal Path, Darbhanga-406480",50,Street Food,4.52,10:00 AM - 11:00 PM,4345137372,True,2021-03-12
+176,Sagar Ratna - Kota 176,"80/186, Hayer Ganj, Cuttack 900945",46,Gujarati,4.74,10:00 AM - 11:00 PM,+914995873918,True,2024-01-29
+177,KFC - Agra 177,"34/75, Magar Path, Phusro-778471",23,Desserts,3.65,10:00 AM - 11:00 PM,03478316825,True,2023-04-19
+178,The Great Kabab Factory - Jaipur 178,"413, Sahota, Chandigarh 166354",9,Italian,4.44,10:00 AM - 11:00 PM,9597925139,True,2024-04-05
+179,Arsalan - Srinagar 179,"H.No. 643, Talwar Zila, Bhalswa Jahangir Pur 592088",31,North Indian,3.16,10:00 AM - 11:00 PM,+913291282938,False,2024-05-20
+180,The Brew House - Amritsar 180,"822, Nayar Path, Dhule 877404",34,Chinese,4.1,10:00 AM - 11:00 PM,2762133390,True,2022-07-03
+181,Cafe Coffee Day - Nashik 181,"H.No. 39, Soni Street, Anand-518118",24,Street Food,3.17,10:00 AM - 11:00 PM,02526511956,True,2023-10-09
+182,KFC - Hubli-Dharwad 182,"H.No. 162, Ganesan Street, Parbhani 299952",50,Mughlai,3.0,10:00 AM - 11:00 PM,+910465384276,True,2023-03-09
+183,Smoke House Deli - Jabalpur 183,"09/402, Shroff Chowk, Dhule-958570",40,Mughlai,4.01,10:00 AM - 11:00 PM,3496647993,True,2022-01-07
+184,Smoke House Deli - Pune 184,"H.No. 213, Agrawal Marg, Sonipat 175162",7,Chinese,4.74,10:00 AM - 11:00 PM,03054216231,True,2023-03-23
+185,The Brew House - Pune 185,"706, Bains, Hospet-750076",7,Beverages,3.7,10:00 AM - 11:00 PM,9353818994,True,2023-07-28
+186,Haldirams - Bhopal 186,"53/909, Tara Marg, Mango-428898",16,Punjabi,3.1,10:00 AM - 11:00 PM,00533745299,True,2025-07-22
+187,Cafe Coffee Day - Raipur 187,"33, Kala Nagar, Sirsa 044841",45,Desserts,3.83,10:00 AM - 11:00 PM,+912652185622,True,2024-03-29
+188,Oh! Calcutta - Vasai-Virar 188,"77/61, Bhatt, Hapur 414681",29,Italian,3.84,10:00 AM - 11:00 PM,1759047950,True,2023-05-01
+189,Moti Mahal - Patna 189,"81/45, Keer Circle, Gaya 220361",19,Continental,3.56,10:00 AM - 11:00 PM,7641693677,True,2023-12-08
+190,Subway - Kota 190,"16/64, Chahal Ganj, Aurangabad-117095",46,Street Food,3.81,10:00 AM - 11:00 PM,01206653790,False,2022-05-29
+191,The Beer Cafe - Vadodara 191,"98, Salvi Path, Mahbubnagar-491101",20,Street Food,4.49,10:00 AM - 11:00 PM,01991205979,True,2021-04-01
+192,McDonalds - Chandigarh 192,"H.No. 12, Choudhry Chowk, Sikar 478438",47,Italian,3.21,10:00 AM - 11:00 PM,09420104087,True,2024-08-28
+193,Dominos Pizza - Madurai 193,"H.No. 811, Srinivasan Chowk, Darbhanga 102502",44,Mughlai,3.39,10:00 AM - 11:00 PM,7347910441,True,2024-07-14
+194,Moti Mahal - Rajkot 194,"53/473, Kapadia Ganj, Ujjain-157346",27,Beverages,3.84,10:00 AM - 11:00 PM,05694339883,True,2024-09-10
+195,Meghana Foods - Thane 195,"76/95, Chaudry Path, Bokaro 153274",15,Bengali,4.49,10:00 AM - 11:00 PM,+917708816587,True,2022-04-20
+196,Toit - Solapur 196,"613, Rai Street, Guntakal-556886",49,Beverages,3.44,10:00 AM - 11:00 PM,6031182683,True,2022-12-10
+197,The Brew House - Srinagar 197,"246, Kala Marg, Amravati 994680",31,Rajasthani,3.6,10:00 AM - 11:00 PM,+911479864076,True,2024-12-04
+198,The Brew House - Hubli-Dharwad 198,"18/93, Krishnan Zila, Kirari Suleman Nagar 688084",50,Beverages,4.77,10:00 AM - 11:00 PM,8219172732,True,2024-10-08
+199,Social - Surat 199,"H.No. 31, Ravi Path, Karaikudi 579374",10,Mughlai,4.78,10:00 AM - 11:00 PM,+912343542578,True,2026-01-10
+200,The Beer Cafe - Faridabad 200,"428, Hayre Street, Bhilwara-623723",25,Italian,3.89,10:00 AM - 11:00 PM,+916821954040,True,2024-08-16
+201,Barbeque Nation - Surat 201,"642, Srivastava Chowk, Gorakhpur-340175",10,Bengali,4.02,10:00 AM - 11:00 PM,3021765728,True,2022-01-31
+202,Toit - Madurai 202,"607, Barad, Durg 895467",44,Rajasthani,4.21,10:00 AM - 11:00 PM,+917877907045,True,2021-05-12
+203,Empire Restaurant - Allahabad 203,"H.No. 95, Dave Road, Nizamabad 915100",36,Continental,3.99,10:00 AM - 11:00 PM,+914750180175,False,2025-09-15
+204,Starbucks - Bangalore 204,"08/951, Suresh Ganj, Serampore 611124",3,Gujarati,4.53,10:00 AM - 11:00 PM,6136608173,True,2022-01-01
+205,Kareem's - Amritsar 205,"H.No. 414, Thaker Marg, Pimpri-Chinchwad 858201",34,Continental,3.48,10:00 AM - 11:00 PM,06031781752,True,2024-03-10
+206,Bikanervala - Hyderabad 206,"H.No. 11, Kalla Marg, Mirzapur 909521",4,Gujarati,4.73,10:00 AM - 11:00 PM,+916081512760,True,2021-12-26
+207,Starbucks - Hyderabad 207,"14/38, Bakshi Path, Warangal 654343",4,Street Food,5.0,10:00 AM - 11:00 PM,+913354370682,True,2022-04-20
+208,The Brew House - Bhopal 208,"66/44, Rajan, Tiruppur 453989",16,Bengali,4.57,10:00 AM - 11:00 PM,01179162128,True,2024-01-13
+209,Empire Restaurant - Patna 209,"74/67, Walia, Morbi 937021",19,Punjabi,3.48,10:00 AM - 11:00 PM,04599435825,True,2021-12-13
+210,Social - Vasai-Virar 210,"43, Chandran Nagar, Guwahati-995678",29,Beverages,4.12,10:00 AM - 11:00 PM,+910020060623,True,2023-09-09
+211,Subway - Gwalior 211,"H.No. 624, Chandra, Nangloi Jat-675695",41,North Indian,4.74,10:00 AM - 11:00 PM,4133617602,True,2025-07-08
+212,Haldirams - Kolkata 212,"98/261, Kade Circle, Sambhal-533987",6,Gujarati,3.84,10:00 AM - 11:00 PM,7206703588,True,2024-11-26
+213,Burger King - Madurai 213,"18/89, Magar Circle, Agra 809821",44,South Indian,4.19,10:00 AM - 11:00 PM,01675855756,True,2025-02-15
+214,Burger King - Patna 214,"57/32, Chaudry Circle, Ramgarh 369027",19,Italian,3.18,10:00 AM - 11:00 PM,8613227881,True,2022-12-16
+215,Haldirams - Ghaziabad 215,"H.No. 12, Master Nagar, Vellore-741347",21,Punjabi,4.53,10:00 AM - 11:00 PM,06928834273,True,2022-01-14
+216,KFC - Faridabad 216,"91/467, Bora Chowk, Karimnagar 822681",25,Punjabi,3.12,10:00 AM - 11:00 PM,5298253134,True,2025-04-11
+217,Empire Restaurant - Kanpur 217,"H.No. 728, Vasa Zila, Tadipatri 447884",12,North Indian,3.06,10:00 AM - 11:00 PM,+910696780265,True,2022-12-28
+218,Saravana Bhavan - Jaipur 218,"36/488, Sood Path, Gurgaon-464832",9,North Indian,4.7,10:00 AM - 11:00 PM,+916020465718,True,2025-11-11
+219,Empire Restaurant - Coimbatore 219,"480, Badami Path, Ahmednagar-858238",39,North Indian,3.82,10:00 AM - 11:00 PM,07509922131,True,2021-07-11
+220,Oh! Calcutta - Hubli-Dharwad 220,"01/229, Krishnamurthy Path, Chapra 776559",50,Fast Food,4.01,10:00 AM - 11:00 PM,+916382137603,True,2024-09-30
+221,Burger King - Ghaziabad 221,"59/815, Bala, Mumbai 734656",21,Bengali,4.44,10:00 AM - 11:00 PM,9410086882,True,2021-11-17
+222,Bikanervala - Jaipur 222,"36, Goswami Circle, Bongaigaon 914128",9,Italian,4.97,10:00 AM - 11:00 PM,07929392466,True,2025-01-15
+223,Moti Mahal - Pimpri-Chinchwad 223,"868, Master Circle, Thane 360765",18,Mughlai,3.85,10:00 AM - 11:00 PM,+916882210626,True,2023-02-22
+224,Pizza Hut - Kanpur 224,"64/103, Batta Circle, Dhanbad 054711",12,Fast Food,4.83,10:00 AM - 11:00 PM,09274780362,True,2022-11-11
+225,Social - Raipur 225,"10/864, Jani Circle, Unnao 650557",45,Chinese,3.86,10:00 AM - 11:00 PM,+912114233897,True,2025-08-23
+226,Moti Mahal - Kanpur 226,"034, Soman Chowk, Aizawl-200576",12,Mughlai,4.83,10:00 AM - 11:00 PM,7257414267,True,2025-10-28
+227,The Great Kabab Factory - Kota 227,"H.No. 218, Shukla Chowk, Yamunanagar 905614",46,Punjabi,4.72,10:00 AM - 11:00 PM,7203964984,True,2024-11-20
+228,The Brew House - Jodhpur 228,"754, Vasa Chowk, Panvel-563035",43,Continental,3.06,10:00 AM - 11:00 PM,01679108844,True,2022-02-05
+229,Mainland China - Varanasi 229,"97, Devi Road, Bhatpara-276979",30,Bengali,3.14,10:00 AM - 11:00 PM,+913358313775,True,2024-11-20
+230,Meghana Foods - Kota 230,"514, Dhillon Path, Sultan Pur Majra 038965",46,Italian,3.62,10:00 AM - 11:00 PM,+912782393701,False,2023-04-21
+231,Starbucks - Jabalpur 231,"24/241, Ganguly, Kakinada-354733",40,Mughlai,4.65,10:00 AM - 11:00 PM,8028171745,True,2024-10-15
+232,MTR - Visakhapatnam 232,"51, Kala, Firozabad 364241",17,South Indian,4.38,10:00 AM - 11:00 PM,1211856946,True,2025-11-11
+233,Saravana Bhavan - Kanpur 233,"83, Nanda Path, Patiala-986442",12,Bakery,4.18,10:00 AM - 11:00 PM,03444506319,True,2025-06-11
+234,Cafe Coffee Day - Nashik 234,"17/66, Dugar Road, Mahbubnagar 666817",24,Gujarati,4.99,10:00 AM - 11:00 PM,09768595494,True,2025-02-19
+235,Paradise Biryani - Coimbatore 235,"H.No. 78, Kannan Nagar, Hazaribagh 402749",39,Bakery,4.37,10:00 AM - 11:00 PM,+918685937459,True,2025-12-24
+236,KFC - Jodhpur 236,"H.No. 894, Kale Ganj, Jaunpur 689279",43,Bakery,4.5,10:00 AM - 11:00 PM,02141305224,True,2023-02-06
+237,Smoke House Deli - Faridabad 237,"86/15, Ramanathan Path, Raichur 831529",25,Punjabi,3.55,10:00 AM - 11:00 PM,+913111793296,True,2021-05-02
+238,Burger King - Dhanbad 238,"68/356, Dhaliwal, Secunderabad-618848",33,South Indian,4.46,10:00 AM - 11:00 PM,+918738357424,True,2021-05-31
+239,Social - Visakhapatnam 239,"H.No. 027, Baral Street, Tezpur 515863",17,Beverages,4.85,10:00 AM - 11:00 PM,0780679397,True,2024-07-02
+240,Arsalan - Meerut 240,"69/966, Prashad Ganj, Tadepalligudem 097826",26,Mughlai,4.3,10:00 AM - 11:00 PM,09548435084,True,2023-03-30
+241,Moti Mahal - Bhopal 241,"75/296, Soni, Farrukhabad 425939",16,Beverages,3.0,10:00 AM - 11:00 PM,04593207334,True,2022-03-09
+242,Oh! Calcutta - Gwalior 242,"H.No. 60, Aggarwal Path, Panihati 181366",41,Beverages,4.17,10:00 AM - 11:00 PM,+918936214166,True,2024-03-27
+243,Kareem's - Rajkot 243,"80, Bhattacharyya Road, Medininagar 492422",27,Mughlai,4.72,10:00 AM - 11:00 PM,2847117030,True,2025-10-20
+244,Toit - Raipur 244,"H.No. 92, Khalsa Marg, Muzaffarnagar-865889",45,Bakery,3.29,10:00 AM - 11:00 PM,01657816521,True,2025-09-26
+245,Oh! Calcutta - Raipur 245,"87/196, Lata Road, Anantapuram-156912",45,North Indian,3.75,10:00 AM - 11:00 PM,03242050114,True,2023-11-05
+246,The Beer Cafe - Jaipur 246,"H.No. 584, Zacharia Chowk, Ramgarh 525756",9,Fast Food,3.69,10:00 AM - 11:00 PM,+910778049854,True,2024-09-07
+247,Starbucks - Ludhiana 247,"02/998, Kala Path, Dewas-348533",22,Street Food,3.03,10:00 AM - 11:00 PM,05793517726,True,2023-12-04
+248,Mainland China - Nashik 248,"85, Pradhan Street, Pudukkottai-410271",24,Street Food,3.55,10:00 AM - 11:00 PM,+917387932824,True,2022-01-08
+249,McDonalds - Patna 249,"099, Ghosh Circle, Latur-120285",19,Bengali,4.38,10:00 AM - 11:00 PM,+916957470920,True,2022-07-28
+250,Pizza Hut - Aurangabad 250,"H.No. 620, Rastogi Circle, Guntakal 660111",32,Bengali,4.15,10:00 AM - 11:00 PM,0049071169,True,2023-07-02
+251,Social - Kolkata 251,"42/021, Chaudry Chowk, Sasaram-971602",6,Beverages,4.82,10:00 AM - 11:00 PM,8284594308,True,2023-11-03
+252,Subway - Nashik 252,"161, Dey Path, Dhule-460728",24,Fast Food,4.68,10:00 AM - 11:00 PM,6756834761,True,2021-04-01
+253,MTR - Thane 253,"62/481, Mane Path, Bijapur 112495",15,Italian,4.07,10:00 AM - 11:00 PM,00951014338,True,2024-01-08
+254,Dominos Pizza - Kota 254,"58/40, Choudhary, Bellary-773225",46,Rajasthani,3.13,10:00 AM - 11:00 PM,+911193490007,True,2023-02-14
+255,Mainland China - Pune 255,"H.No. 862, Bahri Ganj, Orai-818503",7,Fast Food,3.43,10:00 AM - 11:00 PM,7573187890,True,2025-06-15
+256,The Beer Cafe - Visakhapatnam 256,"01/077, Shan Ganj, Mau-598472",17,Bakery,3.75,10:00 AM - 11:00 PM,05619629995,True,2024-03-29
+257,Burger King - Guwahati 257,"78/420, Lala, Jaipur-437688",48,Beverages,3.9,10:00 AM - 11:00 PM,07145156047,True,2023-06-19
+258,Sagar Ratna - Delhi 258,"58/06, Walia Circle, Raebareli-289713",2,Italian,4.48,10:00 AM - 11:00 PM,+916001552843,True,2022-07-13
+259,The Brew House - Nashik 259,"00/375, Mallick Street, Bareilly 545021",24,Continental,4.47,10:00 AM - 11:00 PM,09747723792,True,2025-08-04
+260,Pizza Hut - Dhanbad 260,"13, Ghosh Road, Kottayam-507307",33,Fast Food,3.52,10:00 AM - 11:00 PM,+916053560109,True,2024-03-12
+261,Burger King - Coimbatore 261,"22, Dubey Path, Bhatpara 046085",39,Gujarati,4.66,10:00 AM - 11:00 PM,00246227344,True,2021-03-15
+262,Cafe Coffee Day - Nashik 262,"H.No. 470, Balakrishnan Street, Arrah 885091",24,Italian,4.21,10:00 AM - 11:00 PM,08903352722,True,2024-08-27
+263,The Great Kabab Factory - Ranchi 263,"H.No. 577, Sheth Nagar, Mangalore-650302",37,South Indian,4.86,10:00 AM - 11:00 PM,02879395422,False,2024-05-16
+264,Moti Mahal - Indore 264,"92, Sethi, Junagadh 666389",14,Gujarati,3.33,10:00 AM - 11:00 PM,1748854199,True,2021-07-13
+265,Empire Restaurant - Amritsar 265,"52, Venkataraman Street, Morena-754180",34,Italian,4.01,10:00 AM - 11:00 PM,+918494386172,True,2025-02-07
+266,Meghana Foods - Chennai 266,"93, Bhattacharyya Circle, Tadepalligudem 789623",5,Italian,4.01,10:00 AM - 11:00 PM,+914596050806,True,2022-01-05
+267,Smoke House Deli - Nagpur 267,"00/29, Wali Ganj, Loni 338794",13,Bakery,4.5,10:00 AM - 11:00 PM,04756038792,True,2022-01-16
+268,Truffles - Raipur 268,"39, Sodhi Zila, Chinsurah 655971",45,Punjabi,3.81,10:00 AM - 11:00 PM,01489772219,True,2025-07-13
+269,Truffles - Kota 269,"79, Sachar Nagar, Karawal Nagar-005228",46,Rajasthani,4.73,10:00 AM - 11:00 PM,1159415807,True,2024-07-27
+270,Paradise Biryani - Vadodara 270,"831, Hegde Street, Mirzapur-327082",20,Continental,3.41,10:00 AM - 11:00 PM,7130105649,True,2021-08-18
+271,Starbucks - Coimbatore 271,"790, Chahal Nagar, Ramagundam-593990",39,Rajasthani,3.15,10:00 AM - 11:00 PM,+918456150589,True,2024-03-05
+272,The Great Kabab Factory - Nagpur 272,"50/337, Narang Street, Satna-372184",13,Italian,3.28,10:00 AM - 11:00 PM,+915447154381,True,2025-11-21
+273,KFC - Delhi 273,"84/76, Vohra Marg, Jamalpur 984473",2,Fast Food,3.84,10:00 AM - 11:00 PM,06751850694,True,2025-11-21
+274,Cafe Coffee Day - Bhopal 274,"H.No. 536, Narang Path, Mumbai 734365",16,Punjabi,4.07,10:00 AM - 11:00 PM,08252093621,True,2021-04-28
+275,KFC - Vijayawada 275,"400, Kala Road, Gandhinagar-185270",42,Fast Food,4.9,10:00 AM - 11:00 PM,06388224962,True,2025-05-08
+276,Sagar Ratna - Solapur 276,"H.No. 97, Zacharia Path, Chandrapur-869561",49,Punjabi,3.73,10:00 AM - 11:00 PM,+913636668591,True,2024-12-01
+277,Paradise Biryani - Vadodara 277,"H.No. 848, Bajaj Chowk, Nagpur 352333",20,Bengali,3.98,10:00 AM - 11:00 PM,03621838451,True,2025-06-07
+278,Cafe Coffee Day - Pimpri-Chinchwad 278,"068, Chaudhary Road, Warangal-126180",18,Fast Food,4.75,10:00 AM - 11:00 PM,06410898486,True,2025-03-04
+279,Empire Restaurant - Kota 279,"H.No. 48, Rajan Road, Kozhikode 094845",46,North Indian,4.15,10:00 AM - 11:00 PM,05138202315,True,2024-01-02
+280,Toit - Meerut 280,"98/883, Varma Chowk, Jamalpur 791133",26,Bengali,4.35,10:00 AM - 11:00 PM,04578978613,True,2024-11-14
+281,Pizza Hut - Visakhapatnam 281,"H.No. 820, Kala Path, Patiala 122607",17,Rajasthani,4.94,10:00 AM - 11:00 PM,+912029790945,True,2025-04-30
+282,Cafe Coffee Day - Allahabad 282,"690, Gola Street, Bijapur 684787",36,Desserts,3.72,10:00 AM - 11:00 PM,09767027562,True,2025-05-13
+283,Toit - Faridabad 283,"H.No. 047, Gour Zila, Nagercoil-371294",25,Gujarati,4.95,10:00 AM - 11:00 PM,02192327448,True,2022-04-28
+284,The Brew House - Nashik 284,"452, Anne, Noida 838044",24,Desserts,3.69,10:00 AM - 11:00 PM,+916740921402,True,2024-12-03
+285,KFC - Solapur 285,"90/73, Andra Marg, Vijayanagaram-898056",49,Chinese,4.08,10:00 AM - 11:00 PM,01478413507,True,2024-08-23
+286,McDonalds - Solapur 286,"96/963, Gokhale Street, Kumbakonam 440936",49,Street Food,3.62,10:00 AM - 11:00 PM,06506842772,False,2024-08-10
+287,Mainland China - Jabalpur 287,"H.No. 24, Kala Ganj, Farrukhabad 537837",40,Street Food,4.1,10:00 AM - 11:00 PM,+910044008206,True,2022-05-11
+288,Barbeque Nation - Chennai 288,"65/382, Kumer Zila, Bhiwani 000447",5,Punjabi,4.76,10:00 AM - 11:00 PM,+916813102811,True,2023-01-13
+289,Mainland China - Chennai 289,"H.No. 50, Singh Ganj, Ahmedabad 563805",5,Bakery,4.94,10:00 AM - 11:00 PM,+913303916820,True,2024-09-29
+290,Subway - Mumbai 290,"469, Sule Circle, Bellary-422233",1,Italian,3.55,10:00 AM - 11:00 PM,5660409606,True,2023-03-25
+291,Pizza Hut - Navi Mumbai 291,"984, Dass Chowk, Tadepalligudem-962169",35,Gujarati,3.62,10:00 AM - 11:00 PM,07203076376,True,2025-04-04
+292,Punjab Grill - Gwalior 292,"91, Hora, Srinagar-411777",41,South Indian,4.22,10:00 AM - 11:00 PM,00981154408,True,2025-03-26
+293,The Brew House - Thane 293,"228, Narain Circle, Belgaum-318631",15,Street Food,4.49,10:00 AM - 11:00 PM,+919027308519,True,2025-03-09
+294,Truffles - Madurai 294,"669, Naidu Nagar, Korba-855705",44,Punjabi,3.1,10:00 AM - 11:00 PM,04975342070,True,2025-04-07
+295,Smoke House Deli - Amritsar 295,"H.No. 995, Dhawan Road, Ballia-044558",34,Bengali,3.2,10:00 AM - 11:00 PM,06535636749,True,2021-02-14
+296,Cafe Coffee Day - Nashik 296,"H.No. 394, Oommen Road, Patiala-828770",24,Bakery,3.31,10:00 AM - 11:00 PM,+914641417464,True,2021-07-28
+297,Mainland China - Chandigarh 297,"H.No. 036, Brahmbhatt Marg, Haldia 068539",47,Continental,4.98,10:00 AM - 11:00 PM,+911143093750,True,2024-08-17
+298,The Beer Cafe - Vadodara 298,"54/206, Kamdar Ganj, Gudivada 384256",20,Bengali,3.18,10:00 AM - 11:00 PM,7054737186,True,2024-09-21
+299,Cafe Coffee Day - Hubli-Dharwad 299,"694, Batta Ganj, Buxar-771087",50,South Indian,4.77,10:00 AM - 11:00 PM,02287076073,True,2025-05-18
+300,KFC - Allahabad 300,"63, Deep Ganj, Bhiwandi-612372",36,Fast Food,4.7,10:00 AM - 11:00 PM,03071431272,True,2025-12-31
+301,McDonalds - Varanasi 301,"37, Saxena Street, Chittoor-825926",30,Fast Food,3.08,10:00 AM - 11:00 PM,+914027066288,True,2023-05-25
+302,Burger King - Jodhpur 302,"H.No. 77, Hans Zila, Tadepalligudem 148791",43,Punjabi,3.59,10:00 AM - 11:00 PM,+919709351318,True,2023-10-06
+303,Sagar Ratna - Visakhapatnam 303,"86/18, Saran Street, Gwalior 975371",17,Beverages,3.18,10:00 AM - 11:00 PM,06818764334,True,2026-01-31
+304,Toit - Bangalore 304,"09/775, Gill Marg, Panchkula-940362",3,South Indian,3.39,10:00 AM - 11:00 PM,+913432955332,True,2024-10-09
+305,Starbucks - Srinagar 305,"H.No. 53, Bava Marg, Buxar 411759",31,Desserts,4.23,10:00 AM - 11:00 PM,5594153037,True,2021-10-09
+306,Arsalan - Srinagar 306,"58/571, Sagar Street, Junagadh 756737",31,Mughlai,3.63,10:00 AM - 11:00 PM,09746719188,True,2024-07-07
+307,Oh! Calcutta - Ghaziabad 307,"07/87, Bora Road, Bhusawal 687724",21,Desserts,4.68,10:00 AM - 11:00 PM,+913006425952,True,2023-06-21
+308,Oh! Calcutta - Vasai-Virar 308,"20, Edwin Circle, Gwalior-612186",29,Italian,4.6,10:00 AM - 11:00 PM,08446300238,True,2023-10-21
+309,Burger King - Navi Mumbai 309,"53/653, Narang Chowk, Firozabad 320931",35,Rajasthani,3.24,10:00 AM - 11:00 PM,09945075816,True,2023-10-13
+310,Pizza Hut - Ranchi 310,"201, Narayan Street, Ballia 235235",37,Bengali,4.2,10:00 AM - 11:00 PM,03851076521,True,2025-05-08
+311,Social - Bhopal 311,"804, Uppal Road, Delhi 879594",16,Chinese,4.88,10:00 AM - 11:00 PM,+913219979156,True,2022-08-22
+312,Cafe Coffee Day - Rajkot 312,"H.No. 03, Varghese Circle, Ranchi 402325",27,Continental,3.31,10:00 AM - 11:00 PM,+918334520965,True,2025-10-24
+313,Moti Mahal - Agra 313,"H.No. 62, Radhakrishnan Circle, Shivpuri-685035",23,Continental,3.16,10:00 AM - 11:00 PM,2238154941,True,2023-10-05
+314,Oh! Calcutta - Hyderabad 314,"28, Pingle Marg, Raipur 514241",4,Rajasthani,4.91,10:00 AM - 11:00 PM,06943646736,True,2021-07-01
+315,Paradise Biryani - Kalyan-Dombivali 315,"H.No. 69, Gara Nagar, Anantapuram 931770",28,Desserts,4.84,10:00 AM - 11:00 PM,02697784099,False,2023-03-07
+316,Kareem's - Meerut 316,"07/065, Setty Chowk, Raiganj-743620",26,Desserts,3.76,10:00 AM - 11:00 PM,8820137578,True,2022-07-27
+317,The Great Kabab Factory - Madurai 317,"320, Patel, Chandrapur-757149",44,South Indian,3.12,10:00 AM - 11:00 PM,05324211259,False,2021-10-01
+318,Meghana Foods - Srinagar 318,"508, Varghese Road, Indore-562851",31,Rajasthani,4.7,10:00 AM - 11:00 PM,+916342036981,True,2025-07-20
+319,Kareem's - Howrah 319,"H.No. 168, Chakraborty Street, Latur-313160",38,Bakery,3.26,10:00 AM - 11:00 PM,04092582195,True,2024-10-12
+320,Dominos Pizza - Coimbatore 320,"H.No. 075, Handa Marg, Dehradun-833787",39,Continental,4.6,10:00 AM - 11:00 PM,+910066580163,True,2021-03-16
+321,Sagar Ratna - Pimpri-Chinchwad 321,"99, Shere Marg, Sangli-Miraj & Kupwad-258746",18,Desserts,3.28,10:00 AM - 11:00 PM,03329299051,True,2023-11-02
+322,Dominos Pizza - Delhi 322,"03, Chadha Nagar, Raebareli-438859",2,Rajasthani,3.6,10:00 AM - 11:00 PM,4150668378,True,2021-08-06
+323,Empire Restaurant - Rajkot 323,"513, Puri Path, Etawah-719776",27,Mughlai,4.0,10:00 AM - 11:00 PM,+919048190634,True,2024-02-08
+324,Pizza Hut - Bangalore 324,"40/12, Vig Chowk, Jorhat-460679",3,Desserts,4.6,10:00 AM - 11:00 PM,0645697599,True,2022-08-29
+325,MTR - Meerut 325,"61/447, Barman Chowk, Maheshtala 079042",26,Gujarati,4.14,10:00 AM - 11:00 PM,+919765428067,True,2024-03-09
+326,The Great Kabab Factory - Surat 326,"01/51, Deshpande Ganj, Jaunpur 853519",10,Chinese,4.06,10:00 AM - 11:00 PM,+918884249521,True,2025-09-17
+327,Haldirams - Bhopal 327,"H.No. 85, Grover Marg, Gulbarga 738797",16,Continental,4.15,10:00 AM - 11:00 PM,5031393819,True,2023-10-19
+328,Oh! Calcutta - Bangalore 328,"59/65, Yogi Street, Bulandshahr 287580",3,South Indian,3.31,10:00 AM - 11:00 PM,+910754304128,True,2025-11-03
+329,McDonalds - Indore 329,"59/80, Mangat Path, Davanagere-466163",14,Street Food,3.28,10:00 AM - 11:00 PM,09025299525,True,2021-11-09
+330,Smoke House Deli - Kanpur 330,"H.No. 79, Bhavsar, Thiruvananthapuram 865139",12,Mughlai,4.87,10:00 AM - 11:00 PM,+913460288534,True,2021-11-24
+331,Haldirams - Vijayawada 331,"111, Jaggi Nagar, Nagaon-779742",42,Fast Food,3.26,10:00 AM - 11:00 PM,+911032624001,True,2024-03-08
+332,Kareem's - Hubli-Dharwad 332,"67, Borde Chowk, Tiruvottiyur-236154",50,Bakery,3.91,10:00 AM - 11:00 PM,1069417604,True,2025-03-29
+333,Pizza Hut - Raipur 333,"H.No. 876, Barad Marg, Nanded 484820",45,Italian,3.29,10:00 AM - 11:00 PM,06465532914,True,2021-07-10
+334,Moti Mahal - Varanasi 334,"170, Kunda Road, Gandhinagar 293812",30,Mughlai,3.93,10:00 AM - 11:00 PM,01545082845,True,2021-03-12
+335,Cafe Coffee Day - Rajkot 335,"27/243, Pillai Road, Jodhpur-304579",27,Bakery,4.23,10:00 AM - 11:00 PM,05252463326,True,2023-06-02
+336,Subway - Nagpur 336,"453, Agarwal Chowk, Karawal Nagar-015623",13,Chinese,4.61,10:00 AM - 11:00 PM,+917333189913,True,2021-12-19
+337,Paradise Biryani - Solapur 337,"88, Shenoy Path, Hindupur 162908",49,Beverages,3.29,10:00 AM - 11:00 PM,05538206264,True,2025-10-17
+338,Burger King - Pimpri-Chinchwad 338,"82/863, Ramachandran Nagar, Narasaraopet-145125",18,South Indian,3.67,10:00 AM - 11:00 PM,7772821743,True,2022-09-27
+339,Barbeque Nation - Dhanbad 339,"34/772, Muni Zila, Raebareli-560000",33,Punjabi,3.66,10:00 AM - 11:00 PM,+911966072900,True,2025-07-10
+340,Smoke House Deli - Rajkot 340,"59, Saraf Road, Bhilai-339447",27,Rajasthani,4.61,10:00 AM - 11:00 PM,4632670992,True,2024-09-05
+341,Smoke House Deli - Mumbai 341,"03, Gade, Arrah-987700",1,Bengali,3.59,10:00 AM - 11:00 PM,7705511068,True,2022-12-02
+342,The Beer Cafe - Vijayawada 342,"310, Bakshi Circle, Faridabad-009141",42,Bakery,3.03,10:00 AM - 11:00 PM,1909182193,True,2021-02-19
+343,Burger King - Allahabad 343,"H.No. 61, Ramachandran Nagar, Satara 970653",36,North Indian,4.1,10:00 AM - 11:00 PM,1155163524,True,2024-03-12
+344,Smoke House Deli - Howrah 344,"944, Deshpande Zila, Durg 595004",38,Punjabi,4.66,10:00 AM - 11:00 PM,4334676174,True,2022-03-20
+345,Social - Chandigarh 345,"007, Radhakrishnan Road, Junagadh 088393",47,North Indian,4.57,10:00 AM - 11:00 PM,04917406360,True,2023-09-19
+346,Haldirams - Indore 346,"H.No. 318, Halder Road, Akola-706919",14,Rajasthani,3.53,10:00 AM - 11:00 PM,2376594946,True,2022-10-13
+347,MTR - Madurai 347,"26/067, Dhingra Marg, Sonipat 191901",44,Bengali,4.93,10:00 AM - 11:00 PM,0277818286,True,2025-08-25
+348,Saravana Bhavan - Dhanbad 348,"887, Manda Road, Firozabad 335204",33,Bengali,3.05,10:00 AM - 11:00 PM,2570180561,True,2021-06-08
+349,Bikanervala - Jabalpur 349,"91, Nori Nagar, Gandhidham-966831",40,Mughlai,4.94,10:00 AM - 11:00 PM,3205625305,True,2023-09-24
+350,Cafe Coffee Day - Hyderabad 350,"223, Subramaniam Chowk, Katni 474551",4,Bakery,4.17,10:00 AM - 11:00 PM,+918459844170,True,2024-08-13
+351,KFC - Surat 351,"H.No. 23, Sarma Road, Varanasi 261625",10,Continental,3.07,10:00 AM - 11:00 PM,02195160636,True,2021-09-19
+352,Kareem's - Patna 352,"H.No. 484, Chakraborty Circle, Ozhukarai-713855",19,Fast Food,4.68,10:00 AM - 11:00 PM,00210625363,True,2022-08-17
+353,Dominos Pizza - Pimpri-Chinchwad 353,"490, Mohan Street, Vasai-Virar-790615",18,Punjabi,3.44,10:00 AM - 11:00 PM,+910310972751,True,2024-09-23
+354,Bikanervala - Visakhapatnam 354,"H.No. 537, Kurian Marg, Kulti-483557",17,Beverages,4.02,10:00 AM - 11:00 PM,7400237505,True,2021-12-31
+355,Oh! Calcutta - Vasai-Virar 355,"H.No. 44, Sandal Circle, Phagwara 048913",29,Beverages,4.76,10:00 AM - 11:00 PM,+919255608075,True,2024-12-14
+356,Punjab Grill - Lucknow 356,"79, Deshpande Path, Kharagpur-953037",11,Desserts,4.97,10:00 AM - 11:00 PM,01829117439,True,2025-10-05
+357,Meghana Foods - Guwahati 357,"H.No. 071, Sekhon Marg, Jalgaon 786730",48,Street Food,3.48,10:00 AM - 11:00 PM,06440970568,True,2025-06-06
+358,Moti Mahal - Dhanbad 358,"H.No. 014, Mander Chowk, Thrissur 805085",33,Desserts,4.92,10:00 AM - 11:00 PM,9872669491,True,2022-04-08
+359,Dominos Pizza - Gwalior 359,"H.No. 318, Konda Chowk, Jaunpur 999417",41,Mughlai,4.77,10:00 AM - 11:00 PM,02886340954,True,2021-04-04
+360,Saravana Bhavan - Kanpur 360,"921, Butala Chowk, Nadiad-934679",12,Gujarati,3.05,10:00 AM - 11:00 PM,7388728224,True,2024-04-12
+361,Empire Restaurant - Ludhiana 361,"17/429, Karnik Nagar, Bhopal 151496",22,South Indian,4.45,10:00 AM - 11:00 PM,07124315728,True,2024-01-04
+362,The Beer Cafe - Navi Mumbai 362,"H.No. 155, Konda Zila, Tadipatri-585368",35,Bakery,3.02,10:00 AM - 11:00 PM,+914021405105,True,2021-07-26
+363,Meghana Foods - Lucknow 363,"85, Brar Circle, Sirsa-790439",11,Beverages,4.18,10:00 AM - 11:00 PM,08354176607,True,2025-09-26
+364,The Brew House - Srinagar 364,"24/135, Bandi Road, Anantapur 236687",31,Punjabi,4.81,10:00 AM - 11:00 PM,04346329418,True,2022-12-30
+365,Saravana Bhavan - Varanasi 365,"92, Bahri, Naihati-024911",30,Punjabi,4.23,10:00 AM - 11:00 PM,9345543591,True,2023-06-24
+366,The Great Kabab Factory - Indore 366,"H.No. 31, Peri Ganj, Ichalkaranji 081078",14,Bakery,3.41,10:00 AM - 11:00 PM,+919178674668,True,2024-05-17
+367,Oh! Calcutta - Vasai-Virar 367,"H.No. 34, Nayar Street, Gandhinagar 989202",29,Punjabi,4.46,10:00 AM - 11:00 PM,+917560631556,True,2023-05-02
+368,Empire Restaurant - Ludhiana 368,"12, Ghose Circle, Ranchi-305051",22,Street Food,4.98,10:00 AM - 11:00 PM,+912561111081,True,2024-08-01
+369,McDonalds - Hubli-Dharwad 369,"54/95, Mani Zila, Guwahati 369580",50,Bengali,4.12,10:00 AM - 11:00 PM,7408016099,True,2026-01-11
+370,Burger King - Surat 370,"33/812, Apte Ganj, Bidar-243137",10,Street Food,3.62,10:00 AM - 11:00 PM,09808884665,True,2021-06-03
+371,Arsalan - Solapur 371,"24, Sidhu Road, Bulandshahr 520252",49,Bengali,3.24,10:00 AM - 11:00 PM,04631959974,True,2023-09-01
+372,Saravana Bhavan - Patna 372,"308, Gulati Ganj, Singrauli-456705",19,Punjabi,4.46,10:00 AM - 11:00 PM,3956004852,True,2022-12-17
+373,Burger King - Jodhpur 373,"33/628, Devan Street, Jamalpur 331831",43,Italian,3.88,10:00 AM - 11:00 PM,+910594173924,True,2021-03-15
+374,Saravana Bhavan - Ahmedabad 374,"832, Madan Chowk, Vijayawada-408201",8,Italian,3.72,10:00 AM - 11:00 PM,3039934959,True,2025-08-31
+375,Social - Vijayawada 375,"H.No. 69, Bhakta Chowk, Coimbatore 394759",42,Bengali,3.95,10:00 AM - 11:00 PM,6528011199,True,2021-06-16
+376,Meghana Foods - Navi Mumbai 376,"986, Nagi Ganj, Nagaon 515049",35,North Indian,4.13,10:00 AM - 11:00 PM,0579373494,True,2025-05-08
+377,Dominos Pizza - Surat 377,"21, Baral Path, Deoghar-649831",10,Italian,4.32,10:00 AM - 11:00 PM,+918255369711,True,2021-10-29
+378,The Great Kabab Factory - Srinagar 378,"271, Guha Path, Kanpur 889025",31,Beverages,4.62,10:00 AM - 11:00 PM,9848381055,True,2022-09-23
+379,Bikanervala - Vijayawada 379,"42, Solanki Street, Jodhpur-880059",42,Gujarati,4.52,10:00 AM - 11:00 PM,2535634378,True,2024-12-28
+380,Kareem's - Nagpur 380,"H.No. 11, Khalsa Street, Kadapa-058725",13,Gujarati,4.06,10:00 AM - 11:00 PM,+913651081503,False,2021-11-25
+381,Meghana Foods - Srinagar 381,"H.No. 291, Prasad Ganj, Jodhpur 798304",31,Desserts,4.6,10:00 AM - 11:00 PM,+915317157896,True,2023-10-05
+382,Moti Mahal - Jabalpur 382,"H.No. 186, Khosla Road, Ambarnath-640130",40,Bengali,3.3,10:00 AM - 11:00 PM,02913203008,True,2021-12-31
+383,Arsalan - Varanasi 383,"14, Saha Ganj, Bikaner-862782",30,Fast Food,4.33,10:00 AM - 11:00 PM,4048391266,True,2024-09-22
+384,Moti Mahal - Hubli-Dharwad 384,"H.No. 59, Saha Zila, Pimpri-Chinchwad-206749",50,Bakery,3.37,10:00 AM - 11:00 PM,09416691601,True,2026-01-08
+385,Toit - Madurai 385,"H.No. 73, Vasa Ganj, Muzaffarpur 823267",44,Bakery,3.33,10:00 AM - 11:00 PM,04448784213,True,2025-11-24
+386,The Great Kabab Factory - Nagpur 386,"H.No. 814, Nagarajan Nagar, Sambalpur 424732",13,Rajasthani,4.52,10:00 AM - 11:00 PM,07438048083,True,2021-07-14
+387,KFC - Kalyan-Dombivali 387,"39/49, Gade Nagar, Ahmedabad-962375",28,Bakery,3.31,10:00 AM - 11:00 PM,+916668417466,True,2021-12-23
+388,Barbeque Nation - Rajkot 388,"H.No. 941, Bhavsar Circle, Guna 620808",27,Italian,3.87,10:00 AM - 11:00 PM,05856852130,True,2021-04-24
+389,Cafe Coffee Day - Nagpur 389,"291, Pathak Path, Uluberia 004478",13,Bakery,3.85,10:00 AM - 11:00 PM,+917810331088,True,2022-02-18
+390,Moti Mahal - Agra 390,"21, Bir Road, Gandhinagar-986270",23,Continental,4.88,10:00 AM - 11:00 PM,+912755082563,True,2023-07-18
+391,Smoke House Deli - Hubli-Dharwad 391,"25/334, Joshi Nagar, Gandhinagar 628458",50,Beverages,3.82,10:00 AM - 11:00 PM,9328315950,True,2025-11-09
+392,The Great Kabab Factory - Dhanbad 392,"609, Menon Circle, Ahmedabad-024336",33,Bakery,4.22,10:00 AM - 11:00 PM,3953802967,True,2025-10-15
+393,Cafe Coffee Day - Gwalior 393,"50/627, Mutti Nagar, Dehri-221097",41,Continental,4.6,10:00 AM - 11:00 PM,0948746091,True,2023-12-09
+394,Subway - Jabalpur 394,"475, Parsa Ganj, Adoni-229517",40,Beverages,4.47,10:00 AM - 11:00 PM,8311619501,True,2025-03-22
+395,Meghana Foods - Faridabad 395,"30, Ratta Street, Bidhannagar-585778",25,Fast Food,4.15,10:00 AM - 11:00 PM,07496063835,True,2024-02-27
+396,Mainland China - Ghaziabad 396,"29/60, Chaudhry Nagar, Chennai 444640",21,Chinese,3.46,10:00 AM - 11:00 PM,02175827603,True,2021-12-30
+397,Mainland China - Raipur 397,"H.No. 548, Ghosh Ganj, Kalyan-Dombivli-499598",45,Italian,4.88,10:00 AM - 11:00 PM,1732189118,True,2022-02-08
+398,Starbucks - Patna 398,"397, Chandran Street, Tirupati-736384",19,Rajasthani,4.37,10:00 AM - 11:00 PM,+915356877888,True,2021-03-07
+399,MTR - Patna 399,"00/672, Thakkar, Begusarai-191835",19,Fast Food,4.26,10:00 AM - 11:00 PM,+912704887436,True,2021-07-13
+400,MTR - Jaipur 400,"57, Grewal Path, Kanpur 935647",9,Bengali,3.98,10:00 AM - 11:00 PM,01211920278,True,2023-11-20
+401,The Brew House - Allahabad 401,"11, Iyengar Road, Hindupur-401184",36,Bengali,4.93,10:00 AM - 11:00 PM,9910744404,True,2023-01-01
+402,Mainland China - Coimbatore 402,"H.No. 688, Sodhi, Udaipur-665285",39,Mughlai,4.41,10:00 AM - 11:00 PM,1642487473,True,2025-04-13
+403,The Beer Cafe - Jabalpur 403,"25, Brar, Nagercoil-294804",40,Bakery,4.37,10:00 AM - 11:00 PM,8122733652,True,2021-06-12
+404,The Brew House - Kolkata 404,"73, Varma, Siliguri 830909",6,Desserts,3.65,10:00 AM - 11:00 PM,8319869321,True,2025-12-07
+405,Oh! Calcutta - Howrah 405,"35/901, Chaudhary Nagar, Khandwa 155553",38,Gujarati,4.3,10:00 AM - 11:00 PM,+912520980260,True,2022-09-02
+406,Haldirams - Guwahati 406,"H.No. 46, Mukhopadhyay Ganj, Dharmavaram-836955",48,Street Food,3.85,10:00 AM - 11:00 PM,+911710501271,True,2025-10-08
+407,Subway - Nashik 407,"861, Sane Circle, Agra-579642",24,Italian,4.23,10:00 AM - 11:00 PM,02992203532,True,2021-08-02
+408,Cafe Coffee Day - Kolkata 408,"029, Bedi Marg, Nanded-852577",6,Punjabi,3.14,10:00 AM - 11:00 PM,0960520534,True,2021-07-05
+409,Kareem's - Varanasi 409,"418, Bhagat Ganj, Anantapuram-208436",30,Punjabi,3.87,10:00 AM - 11:00 PM,2254683226,True,2021-10-14
+410,The Beer Cafe - Srinagar 410,"21/774, Sinha Road, Orai 861579",31,Street Food,3.88,10:00 AM - 11:00 PM,8425306388,True,2021-07-31
+411,McDonalds - Lucknow 411,"16, Kannan, Visakhapatnam 865722",11,Desserts,4.87,10:00 AM - 11:00 PM,4221877137,True,2025-01-10
+412,Empire Restaurant - Guwahati 412,"690, Narayan Ganj, Bihar Sharif-855194",48,Rajasthani,3.1,10:00 AM - 11:00 PM,+917180310761,True,2021-04-27
+413,Oh! Calcutta - Nashik 413,"455, Khatri Circle, Sultan Pur Majra 532054",24,Fast Food,4.01,10:00 AM - 11:00 PM,03608370466,True,2021-04-26
+414,Meghana Foods - Pune 414,"78/80, Vaidya, Kota-940054",7,North Indian,3.22,10:00 AM - 11:00 PM,+912498281910,True,2023-03-13
+415,Barbeque Nation - Aurangabad 415,"87/340, Balay Ganj, Nagercoil-157490",32,Gujarati,3.17,10:00 AM - 11:00 PM,03304034179,True,2021-06-28
+416,Saravana Bhavan - Hyderabad 416,"85, Munshi Chowk, Dehradun-926845",4,Fast Food,4.25,10:00 AM - 11:00 PM,07163183567,True,2025-02-06
+417,Pizza Hut - Bhopal 417,"63/59, Sankaran Street, Bilaspur-136116",16,Chinese,4.84,10:00 AM - 11:00 PM,01071168612,True,2024-05-09
+418,Bikanervala - Patna 418,"39/922, Dass Circle, Khandwa 286579",19,Chinese,3.56,10:00 AM - 11:00 PM,4924498734,True,2022-11-01
+419,Oh! Calcutta - Ludhiana 419,"890, Dass Street, Bellary-636055",22,Punjabi,3.43,10:00 AM - 11:00 PM,03171444319,False,2021-05-27
+420,MTR - Allahabad 420,"845, Kapur, Guna-088399",36,Mughlai,3.33,10:00 AM - 11:00 PM,3722213175,True,2021-11-19
+421,Sagar Ratna - Jaipur 421,"36/796, Thaman Nagar, Dindigul-045925",9,Desserts,3.1,10:00 AM - 11:00 PM,06246391654,True,2025-01-08
+422,Arsalan - Vijayawada 422,"60, Bhargava Street, Sonipat 084838",42,Bakery,3.51,10:00 AM - 11:00 PM,+914871921553,True,2025-08-31
+423,Barbeque Nation - Navi Mumbai 423,"45/494, Sarraf Road, Kulti 956385",35,Bengali,4.91,10:00 AM - 11:00 PM,01828344912,True,2021-04-27
+424,Bikanervala - Bangalore 424,"64/488, Bhargava Zila, Berhampur 727088",3,Gujarati,5.24,10:00 AM - 11:00 PM,00746213662,True,2022-01-08
+425,Empire Restaurant - Faridabad 425,"96, Date Path, Raurkela Industrial Township 087432",25,North Indian,3.41,10:00 AM - 11:00 PM,01844241195,True,2023-09-17
+426,The Great Kabab Factory - Visakhapatnam 426,"22/46, Korpal Road, Bhopal-562412",17,Bakery,3.14,10:00 AM - 11:00 PM,+916699359108,True,2024-03-02
+427,McDonalds - Kalyan-Dombivali 427,"56, Mann Marg, Karawal Nagar-849757",28,Gujarati,3.88,10:00 AM - 11:00 PM,+915558113711,True,2022-11-08
+428,Empire Restaurant - Rajkot 428,"H.No. 346, Minhas Chowk, Jalgaon 107394",27,Fast Food,4.76,10:00 AM - 11:00 PM,03187394303,True,2024-05-28
+429,Oh! Calcutta - Allahabad 429,"931, Sarkar Zila, Guntur 780985",36,Desserts,3.97,10:00 AM - 11:00 PM,0960069862,True,2022-01-15
+430,Subway - Mumbai 430,"59, Sarma Marg, Imphal 993960",1,Fast Food,3.85,10:00 AM - 11:00 PM,4977131034,True,2021-11-07
+431,McDonalds - Bhopal 431,"991, Shah Circle, Rewa-475339",16,Fast Food,4.17,10:00 AM - 11:00 PM,01110938756,True,2023-08-26
+432,MTR - Solapur 432,"73/26, Raju Ganj, Durgapur 651535",49,North Indian,4.78,10:00 AM - 11:00 PM,+911774893248,True,2022-07-07
+433,Subway - Bangalore 433,"H.No. 483, Luthra Circle, Vellore 570953",3,Gujarati,5.16,10:00 AM - 11:00 PM,6479137808,True,2024-07-19
+434,Punjab Grill - Madurai 434,"62/773, Shenoy Ganj, Siwan-287572",44,Mughlai,3.28,10:00 AM - 11:00 PM,3874238944,True,2025-05-18
+435,Kareem's - Aurangabad 435,"142, Issac, Pallavaram 702781",32,North Indian,3.67,10:00 AM - 11:00 PM,+915531334969,True,2025-01-30
+436,Smoke House Deli - Aurangabad 436,"32, Yadav, Gaya 813903",32,Desserts,4.39,10:00 AM - 11:00 PM,06976396106,True,2024-01-12
+437,Saravana Bhavan - Pimpri-Chinchwad 437,"H.No. 77, Gokhale Road, Farrukhabad-160063",18,Street Food,3.13,10:00 AM - 11:00 PM,9164536518,True,2026-01-14
+438,Dominos Pizza - Nagpur 438,"67/387, Brahmbhatt Circle, Hajipur-062502",13,Bengali,4.42,10:00 AM - 11:00 PM,+915625672020,True,2023-01-19
+439,The Brew House - Hubli-Dharwad 439,"H.No. 367, Patla Circle, Jaipur-384102",50,Desserts,4.48,10:00 AM - 11:00 PM,2428946275,True,2022-01-31
+440,Empire Restaurant - Varanasi 440,"34, Roy, Udaipur-524419",30,Chinese,4.0,10:00 AM - 11:00 PM,03500878403,True,2023-04-28
+441,Pizza Hut - Hubli-Dharwad 441,"96/461, Parekh Street, Akola-462235",50,North Indian,4.96,10:00 AM - 11:00 PM,9518127236,True,2023-09-03
+442,Oh! Calcutta - Bhopal 442,"58, Oommen Road, Parbhani-254128",16,Fast Food,4.77,10:00 AM - 11:00 PM,2791238435,True,2023-10-26
+443,Moti Mahal - Hubli-Dharwad 443,"16, Cheema Ganj, Dehri 841389",50,Gujarati,3.44,10:00 AM - 11:00 PM,03571552424,True,2022-12-27
+444,The Great Kabab Factory - Bangalore 444,"H.No. 81, Kumar Ganj, Chittoor-853238",3,Gujarati,4.65,10:00 AM - 11:00 PM,+917373902246,True,2021-03-19
+445,Truffles - Vadodara 445,"924, Nadig Street, Alwar 257822",20,Fast Food,3.64,10:00 AM - 11:00 PM,4957320263,True,2023-06-12
+446,Smoke House Deli - Surat 446,"H.No. 59, Deep Street, Jalandhar-499412",10,South Indian,3.32,10:00 AM - 11:00 PM,+919974517394,True,2022-10-20
+447,Subway - Pune 447,"19/76, Ramakrishnan Circle, Siliguri-137971",7,Desserts,3.44,10:00 AM - 11:00 PM,06919226710,True,2021-04-20
+448,The Beer Cafe - Agra 448,"72/489, Rattan Zila, Ghaziabad-413750",23,Fast Food,3.96,10:00 AM - 11:00 PM,2459555769,True,2024-03-14
+449,Burger King - Guwahati 449,"45/24, Savant Nagar, Allahabad-082157",48,Continental,4.5,10:00 AM - 11:00 PM,06044923700,True,2021-08-12
+450,Sagar Ratna - Pimpri-Chinchwad 450,"59/384, Tak Path, Karnal-773173",18,Beverages,4.22,10:00 AM - 11:00 PM,3809565227,True,2023-02-25
+451,Haldirams - Vijayawada 451,"26/50, Vala Ganj, Ambala-675550",42,Gujarati,4.66,10:00 AM - 11:00 PM,+916108518024,True,2022-07-27
+452,Empire Restaurant - Jaipur 452,"83/895, Sachar Path, Vijayawada-696774",9,Mughlai,4.79,10:00 AM - 11:00 PM,9830337277,True,2021-06-07
+453,Paradise Biryani - Aurangabad 453,"H.No. 01, Aggarwal Street, Durg 943671",32,Street Food,4.21,10:00 AM - 11:00 PM,03013466371,True,2025-12-23
+454,Haldirams - Kanpur 454,"87/555, Goyal Chowk, Bhiwandi-441609",12,Beverages,3.75,10:00 AM - 11:00 PM,+913168863040,True,2025-12-15
+455,Saravana Bhavan - Thane 455,"96/46, Kanda Zila, Dhanbad-061401",15,Chinese,4.36,10:00 AM - 11:00 PM,4564844937,True,2024-10-08
+456,Paradise Biryani - Bhopal 456,"24/255, Aurora Marg, Rajahmundry-129007",16,Continental,4.59,10:00 AM - 11:00 PM,3980086770,True,2023-05-09
+457,Pizza Hut - Nashik 457,"737, Sharaf Ganj, Kottayam-038127",24,Punjabi,3.68,10:00 AM - 11:00 PM,08801912247,True,2022-12-28
+458,Social - Allahabad 458,"97/03, Vyas Street, Allahabad 168074",36,South Indian,4.84,10:00 AM - 11:00 PM,+913521957147,True,2022-10-23
+459,Pizza Hut - Coimbatore 459,"05/36, Tandon Street, Baranagar 068866",39,Bakery,4.04,10:00 AM - 11:00 PM,+910704639091,True,2021-03-09
+460,McDonalds - Srinagar 460,"02/625, Rajagopalan Circle, Bathinda 173526",31,Punjabi,4.03,10:00 AM - 11:00 PM,+919657621013,True,2023-08-17
+461,Moti Mahal - Rajkot 461,"32/89, Radhakrishnan Marg, Bulandshahr 002413",27,Fast Food,4.14,10:00 AM - 11:00 PM,+915677050330,True,2023-04-24
+462,The Brew House - Delhi 462,"67/657, Kade Path, Kozhikode 337446",2,Beverages,4.17,10:00 AM - 11:00 PM,1493722226,True,2022-12-20
+463,Cafe Coffee Day - Dhanbad 463,"H.No. 627, Dora, Kamarhati-827843",33,Punjabi,4.16,10:00 AM - 11:00 PM,05220140921,True,2022-01-25
+464,The Great Kabab Factory - Varanasi 464,"944, Nair Chowk, Etawah 337556",30,Beverages,3.72,10:00 AM - 11:00 PM,06901342883,True,2025-10-29
+465,MTR - Ahmedabad 465,"H.No. 46, Kakar, Secunderabad 843561",8,Bengali,3.53,10:00 AM - 11:00 PM,+916609013380,True,2024-05-05
+466,Kareem's - Bangalore 466,"85, Sant Street, Karnal-133708",3,Italian,4.97,10:00 AM - 11:00 PM,2802640742,True,2025-11-07
+467,Social - Raipur 467,"48/24, Prabhu Zila, Bangalore 520283",45,Punjabi,4.07,10:00 AM - 11:00 PM,7654457612,True,2023-05-13
+468,Paradise Biryani - Jodhpur 468,"H.No. 13, D’Alia Zila, Thanjavur-484230",43,Beverages,3.67,10:00 AM - 11:00 PM,1910095193,True,2025-06-23
+469,Saravana Bhavan - Delhi 469,"111, Wason Chowk, Raurkela Industrial Township-762195",2,Punjabi,3.65,10:00 AM - 11:00 PM,9288614490,True,2024-02-08
+470,The Great Kabab Factory - Amritsar 470,"H.No. 742, Issac Road, Kottayam-702701",34,Bengali,4.66,10:00 AM - 11:00 PM,04068005617,True,2025-05-06
+471,MTR - Ahmedabad 471,"75, Bains Zila, Bhind 418643",8,Punjabi,4.72,10:00 AM - 11:00 PM,3938960724,True,2023-09-14
+472,The Beer Cafe - Indore 472,"59/35, Shah Street, Jaunpur 386954",14,Beverages,4.89,10:00 AM - 11:00 PM,+911926612219,True,2021-06-14
+473,Burger King - Amritsar 473,"80/27, Borra Road, Berhampur-323272",34,Italian,4.73,10:00 AM - 11:00 PM,01474660499,True,2021-02-14
+474,Starbucks - Patna 474,"34, Devi Zila, Korba 189622",19,Italian,4.19,10:00 AM - 11:00 PM,+911922662760,True,2022-10-01
+475,Barbeque Nation - Ghaziabad 475,"60/79, Cherian Marg, Durg-192246",21,South Indian,4.33,10:00 AM - 11:00 PM,3381302069,True,2022-09-28
+476,Cafe Coffee Day - Navi Mumbai 476,"H.No. 994, Dhingra Ganj, Asansol 940755",35,South Indian,4.29,10:00 AM - 11:00 PM,07623046792,True,2022-08-13
+477,Truffles - Varanasi 477,"53/32, Parmar Street, Ambala-012959",30,Beverages,3.46,10:00 AM - 11:00 PM,08490812164,True,2021-05-01
+478,Subway - Howrah 478,"34, Dyal Road, Mangalore 809072",38,Street Food,3.48,10:00 AM - 11:00 PM,7913025357,True,2022-09-12
+479,Toit - Gwalior 479,"76, Dhawan Street, Tirupati 240896",41,Gujarati,4.32,10:00 AM - 11:00 PM,00569726185,True,2024-03-28
+480,Haldirams - Kanpur 480,"39/650, Chaudry Marg, Anantapuram 497831",12,Bakery,3.27,10:00 AM - 11:00 PM,04558110184,True,2021-11-01
+481,The Brew House - Navi Mumbai 481,"H.No. 55, Mall Circle, Dhanbad 136756",35,Fast Food,4.92,10:00 AM - 11:00 PM,+912000779733,True,2023-09-03
+482,Subway - Solapur 482,"H.No. 185, Dugar Road, Alwar 047231",49,Desserts,3.21,10:00 AM - 11:00 PM,01530367840,True,2022-04-17
+483,Kareem's - Lucknow 483,"72/82, Modi Nagar, Rourkela 707291",11,Continental,4.93,10:00 AM - 11:00 PM,02179136333,True,2024-09-27
+484,Burger King - Jaipur 484,"89/36, Bajwa, South Dumdum-320368",9,Beverages,3.19,10:00 AM - 11:00 PM,9210498152,True,2025-11-21
+485,Toit - Bhopal 485,"22/18, Balan Road, Vadodara-362669",16,Fast Food,4.3,10:00 AM - 11:00 PM,07984775511,True,2025-07-24
+486,MTR - Coimbatore 486,"H.No. 25, Banerjee Road, Indore 725038",39,Italian,4.33,10:00 AM - 11:00 PM,03795191776,True,2025-11-01
+487,Truffles - Varanasi 487,"33/05, Som Street, Bhalswa Jahangir Pur 896700",30,Italian,3.29,10:00 AM - 11:00 PM,8375838776,True,2023-07-24
+488,Starbucks - Indore 488,"00/63, Chaudhry Nagar, Bihar Sharif-386925",14,Fast Food,4.11,10:00 AM - 11:00 PM,9176309167,False,2021-08-12
+489,Oh! Calcutta - Pimpri-Chinchwad 489,"56/348, Andra Zila, Tumkur 011131",18,Mughlai,4.16,10:00 AM - 11:00 PM,03502076458,True,2025-06-25
+490,Oh! Calcutta - Kanpur 490,"17/437, Talwar, Katihar-409974",12,Beverages,4.2,10:00 AM - 11:00 PM,08687103664,True,2022-09-30
+491,Smoke House Deli - Hubli-Dharwad 491,"H.No. 74, Bora, Chennai 537727",50,Fast Food,4.0,10:00 AM - 11:00 PM,+918229736956,True,2021-11-27
+492,The Beer Cafe - Chennai 492,"50, Madan Street, Hyderabad-942756",5,Desserts,3.39,10:00 AM - 11:00 PM,+919953831574,True,2023-10-31
+493,Smoke House Deli - Patna 493,"29/262, Sawhney Street, Warangal-561965",19,Punjabi,3.52,10:00 AM - 11:00 PM,+915248712454,True,2021-12-11
+494,Arsalan - Howrah 494,"27/825, Mishra Zila, Kishanganj-076710",38,South Indian,3.39,10:00 AM - 11:00 PM,+916366988833,True,2025-05-06
+495,KFC - Pimpri-Chinchwad 495,"58/022, Grover Chowk, Deoghar 324110",18,Italian,4.48,10:00 AM - 11:00 PM,2613267111,True,2021-02-08
+496,Kareem's - Vadodara 496,"H.No. 84, Krish Ganj, Tinsukia 341033",20,Punjabi,3.6,10:00 AM - 11:00 PM,+915041393825,True,2024-08-28
+497,The Great Kabab Factory - Surat 497,"15/18, Patla Zila, Bijapur 936725",10,Continental,3.93,10:00 AM - 11:00 PM,6708877902,True,2023-09-25
+498,Empire Restaurant - Surat 498,"71/41, Nagy Path, Tezpur-226675",10,Desserts,4.19,10:00 AM - 11:00 PM,9785533673,True,2024-03-20
+499,Punjab Grill - Vijayawada 499,"H.No. 617, Hayre Circle, Dewas 458029",42,Mughlai,3.19,10:00 AM - 11:00 PM,06223072591,True,2021-07-10
+500,Moti Mahal - Vijayawada 500,"793, Ravi Path, Vellore-773645",42,Beverages,4.18,10:00 AM - 11:00 PM,+918968946072,True,2023-12-06
